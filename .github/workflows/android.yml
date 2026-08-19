@@ -19,7 +19,7 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: gradle
+        # cache: gradle   ← XÓA hoặc comment dòng này
     
     - name: Make gradlew executable
       run: chmod +x gradlew
